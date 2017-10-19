@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Spotify Project</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+
+    .visibility {
+      visibility: collapse;
+      height: 0px;
+    }
+
+    body {
+      background: black;
+      color: #84bd00;
+      font-family: sans-serif;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Spotify Search</h1>
+
+    <form action="" method="get">
+      <input type="text" id="searchSong">
+      <input id="searchButton" type="submit" value="search">
+    </form><br>
+
+    All Songs<div id="results"></div>
+
+    <script src="song.js"></script>
+    <script src="app.js"></script>
+    <script src="index.js"></script>
+
+  </body>
+</html>
